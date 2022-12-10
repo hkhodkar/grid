@@ -1,0 +1,58 @@
+figure {
+    margin: 1rem;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+
+figure>img {
+    grid-row: 1 / -1;
+    grid-column: 1;
+}
+
+.card {
+    padding: 1rem;
+}
+
+.card-items {
+    background-color: #e4e4e4;
+
+    h3 {
+        margin: 1rem;
+    }
+
+}
+
+.card-image {
+    max-width: 100%;
+    display: block;
+}
+
+.card-avatar {
+    max-width: 3rem;
+    margin: 0 auto;
+
+    img {
+        width: 100%;
+    }
+}
+
+
+figure a {
+    color: black;
+    text-decoration: none;
+}
+
+figcaption {
+    grid-row: 2;
+    grid-column: 1;
+    background-color: rgba(255, 255, 255, .5);
+    padding: .2em .5em;
+    justify-self: start;
+}
+
+.container {
+    column-count: 4;
+    column-gap: 10px;
+}

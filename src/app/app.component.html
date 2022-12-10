@@ -1,12 +1,5 @@
-<section class="container">
-  <div *ngFor="let item of data" class="card">
-    <div class="card-items">
-      <img class="card-image" [src]="item.imageUrl" alt="image">
-      <h3>{{item.targetUrl }}</h3>
-      <div class="card-avatar" *ngIf="item.postedBy">
-        <img [src]="item.postedBy.avatarUrl" alt="avatar">
-        <span>{{item.postedBy.name}}</span>
-      </div>
-    </div>
-  </div>
-</section>
+<header>
+  <a routerLink="/">home</a>
+  <a routerLink="calc">calc</a>
+</header>
+<router-outlet></router-outlet>

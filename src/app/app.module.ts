@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AvatarDirective } from './avatar.directive';
 import { HomeComponent } from './components/home/home.component';
+import { CalcComponent } from './components/calc/calc.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AvatarDirective,
-    HomeComponent
+    HomeComponent,
+    CalcComponent
   ],
   imports: [
     BrowserModule,

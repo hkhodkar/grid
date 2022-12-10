@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel");
+
+
+html {
+    color: var(--clr-primary);
+    font-size: 1rem;
+    line-height: 1.4;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-primary);
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background: var(--clr-white);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: inherit;
+}
+
+.btn {
+    background-color: var(--clr-secondary) !important;
+}
+
+.btn:hover {
+    background-color: var(--clr-primary) !important;
+}
+
+
+
+:root {
+    --clr-primary: #47a3da;
+    --clr-secondary: #D56E31;
+    --clr-secondary-light: #db895a;
+    --clr-success: #00D170;
+    --clr-success-light: #aaf5da;
+    --clr-accent: #fb5c5c;
+    --clr-white: #ffffff;
+    --ff-primary: "Catamaran", sans-serif;
+    --ff-secondary: "Grand Hotel", cursive;
+}
